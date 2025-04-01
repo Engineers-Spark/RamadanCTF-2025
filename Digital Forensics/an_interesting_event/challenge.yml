@@ -1,0 +1,23 @@
+name: "An interesting event"
+author: "Kakarot"
+category: Digital Forensics
+description: |-
+  I hate windows logs.
+
+  >author : Kakarot
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+#Incase of Static Flag
+flags:
+  - Spark{1_h4t3_evtx_4nd_y0u_w1ll_t00}
+
+
+files:
+  - Handout/Logs.zip
+state: hidden
+version: "0.1"

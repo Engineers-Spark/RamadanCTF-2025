@@ -1,0 +1,11 @@
+version: "3"
+services:
+  binary-search:
+    build: .
+    container_name: binary-search
+    user: ctf
+    working_dir: /home/ctf
+    entrypoint: /bin/sh -c "./ynetd -p 4000 /home/ctf/launch.sh"
+    ports:
+      - "4000:4000"
+    read_only: true

@@ -1,0 +1,27 @@
+name: "Brainless"
+author: "sn0_0wyy"
+category: Digital Forensics
+description: |-
+  It all started when Graya plugged in a mysterious USB device. Five seconds later, his screen was flooded with a mess of random characters. Was it a ghost? A secret hacker message? Or just Graya’s laptop finally giving up on him?
+
+  Your job is to figure out what this possessed device was trying to say.
+
+  
+
+  **author**: <span style="color:red;font-family:Kamali;">sn0_0wyy</span>
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+#Incase of Static Flag
+flags:
+  - Spark{G00d_Job_H3ck3r_U_D3c0d3d_USB_H1D_L1k3_A_Pr0}
+
+
+files:
+  - Handout/Some_Weird_Capture.pcap
+state: hidden
+version: "0.1"

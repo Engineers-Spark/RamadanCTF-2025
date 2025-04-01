@@ -1,0 +1,18 @@
+name: "Dynamic2"
+author: "Twt-Bouzo"
+category: Reverse Engineering
+description: |-
+  I hope you solved the previous task—good job! Now, are you ready for the revenge? This time, there’s a secret hidden in a code that keeps moving. Use easy steps to crack it and win!
+  **author**: tWt-Bouzo
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Spark{Dyn4m1c_r3v_48824312160301574232}
+files:
+  -Challenge/Dynamic2
+state: "hidden"
+version: "0.1"

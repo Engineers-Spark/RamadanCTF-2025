@@ -1,0 +1,22 @@
+name: "LEVEL3"
+author: "AGENTOO"
+category: Cryptography
+description: |-
+
+  just decrypt the flag
+  
+  `nc levelthree.espark.tn 6300`
+
+  **author**: AGENTOO
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{fdf930a99efa840055c8930a99efa840}
+files:
+  - challenge/level3.py
+state: "hidden"
+version: "0.1"

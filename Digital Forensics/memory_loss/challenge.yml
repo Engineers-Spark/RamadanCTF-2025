@@ -1,0 +1,27 @@
+name: "Guthib"
+author: "Kakarot"
+category: Digital Forensics
+description: |-
+  Things have been hapening to my pc, but I keep forgetting to check it due to my bad memory.
+
+  `$ nc tcp.espark.tn 7022`
+
+  [File Link](https://drive.google.com/file/d/1_0LsZVeMvHDODK4vmIeI1j-jgLMqgjdH/view?usp=sharing)
+
+  > Author : Kakarot
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+#Incase of Static Flag
+flags:
+  - Spark{7ff445b4f57b4280693ebd0684d46044}
+
+
+files:
+  -
+state: hidden
+version: "0.1"

@@ -1,0 +1,18 @@
+name: "Cisco"
+author: "Misc"
+category: Hardware
+description: |-
+  Spark is a magic key.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{092e052ac660ba2f841e5f962c4d78465a1d7dddd8b0a2a7d9ba1efcc3642bb8}
+files:
+  - Challenge/Task.pkt
+state: "hidden"
+version: "0.1"

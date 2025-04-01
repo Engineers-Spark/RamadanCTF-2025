@@ -1,0 +1,18 @@
+name: "ZZZ"
+author: "1DH4M"
+category: Reverse Engineering
+description: |-
+ Use your skills to bypass the checker and retrieve the flag.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{Z3_M4kes_It_E4sy}
+files:
+  - Challenge/zzz
+state: "hidden"
+version: "0.1"

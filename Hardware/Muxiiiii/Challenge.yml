@@ -1,0 +1,21 @@
+name: "Muxiiiii"
+author: "1DH4M"
+category: Hardware
+description: |-
+ I execute this prog with those sel values 
+ 100, 101, 001, 010, 111, 000, 011, 110 
+ And i get this output Can you help me to get the Flag ?
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{e45y_br0}
+files:
+  - Challenge/task.vhdl
+  - Challenge/output.txt
+state: "hidden"
+version: "0.1"

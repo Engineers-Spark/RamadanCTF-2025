@@ -1,0 +1,11 @@
+version: "3"
+services:
+  level4-crypto:
+    build: .
+    container_name: level4-crypto
+    user: ctf
+    working_dir: /home/ctf
+    entrypoint: /bin/sh -c "./ynetd -p 6400 /home/ctf/launch.sh"
+    ports:
+      - "6400:6400"
+    read_only: true

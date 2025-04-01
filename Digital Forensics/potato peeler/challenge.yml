@@ -1,0 +1,25 @@
+name: "Potato peeler"
+author: "Kakarot"
+category: Digital Forensics
+description: |-
+  Something strange was getting installed when I was setting up my docker container, can you find out what it is ?
+
+  **granolah/potatopeeler**
+
+  >author : Kakarot
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+#Incase of Static Flag
+flags:
+  - Spark{p33l_th3_l4y3r5_4nd_f1nd_th3_r3v5h3ll!!}
+
+
+files:
+  - Handout/Dockerfile
+state: hidden
+version: "0.1"

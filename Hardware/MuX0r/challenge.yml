@@ -1,0 +1,21 @@
+name: "MuX0r"
+author: "1DH4M"
+category: Hardware
+description: |-
+ I executed this prog with those sellect values  
+ 1110 1000 1001 0100 1101 0010 0011 0101 0111 1100 0110 1011 0000 1010 1111 0001
+ And i get this output  Can you help me to get the flag.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{X0rr_Mee!}
+files:
+  - Challenge/task.vhdl
+  - Challenge/output.txt
+state: "hidden"
+version: "0.1"

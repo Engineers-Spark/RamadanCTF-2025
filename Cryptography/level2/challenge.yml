@@ -1,0 +1,21 @@
+name: "LEVEL2"
+author: "AGENTOO"
+category: Cryptography
+description: |-
+
+  why two when one is enough
+
+  **author**: AGENTOO
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{a84ccf0aa840a8400fdf840930a99efa}
+files:
+  - challenge/level2.py
+  - challenge/level2.txt    
+state: "hidden"
+version: "0.1"

@@ -1,0 +1,18 @@
+name: "Cole PPalmer"
+author: "Twt-Bouzo"
+category: Misc
+description: |- 
+  Cole PPalmer? Does this remind you of something
+  `$ nc IP 4020`
+  **author**: tWt-Bouzo
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+
+flags:
+  - Spark{1_L0ve_B1t_S3t_C++}
+state: "hidden"
+version: "0.1"

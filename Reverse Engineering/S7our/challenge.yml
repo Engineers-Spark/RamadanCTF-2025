@@ -1,0 +1,18 @@
+name: "S7our"
+author: "1DH4M"
+category: Reverse Engineering
+description: |-
+  Make a deep look and find the flag.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{4llw4ys_L00k_4t_5tr1ng5}
+files:
+  - Challenge/s7our.apk
+state: "hidden"
+version: "0.1"

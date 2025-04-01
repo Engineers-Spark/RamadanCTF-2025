@@ -1,0 +1,18 @@
+name: "Intro"
+author: "1DH4M"
+category: Reverse Engineering
+description: |-
+ Let’s get started.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{x0r_i5_n0t_S4f3}
+files:
+  - Challenge/Intro
+state: "hidden"
+version: "0.1"

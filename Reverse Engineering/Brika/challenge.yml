@@ -1,0 +1,18 @@
+name: "Brika"
+author: "1DH4M"
+category: Reverse Engineering
+description: |-
+ Just try to get the secret string to get the Flag.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{BRIKA_1s_b3Tt3r_Th4n_TAJIN!!}
+files:
+  - Challenge/Brika.apk
+state: "hidden"
+version: "0.1"

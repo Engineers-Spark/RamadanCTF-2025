@@ -1,0 +1,18 @@
+name: "w4rmUp"
+author: "1DH4M"
+category: Digital Forensics
+description: |-
+ It is all about the Datagram.
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{c128a0991f00cdea2663a313b13d9075244ca00be3d6a61a5525cb2953fc474b}
+files:
+  - Challenge/warmup.pcap
+state: "hidden"
+version: "0.1"

@@ -1,0 +1,1 @@
+FLAG = b'Spark{2a7ad66c61d8ca732be2a342f406f66c}'

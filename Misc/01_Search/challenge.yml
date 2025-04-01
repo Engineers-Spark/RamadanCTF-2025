@@ -1,0 +1,16 @@
+name: "01_Search"
+author: "Twt-Bouzo"
+category: Misc
+description: |- 
+  0xl4rti has some questions for you.
+  `$ nc IP 4000`
+  **author**: tWt-Bouzo
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Spark{B1n4ry_S34rch_4lg0}
+state: "hidden"
+version: "0.1"

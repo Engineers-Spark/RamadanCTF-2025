@@ -1,0 +1,22 @@
+name: "LEVEL4"
+author: "AGENTOO"
+category: Cryptography
+description: |-
+
+  a small twist but i think u can do it 
+
+  `nc levelfour.espark.tn 6000`
+
+  **author**: AGENTOO
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{2a7ad66c61d8ca732be2a342f406f66c}
+files:
+    - level4.py    
+state: "hidden"
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Bou3rada's Bizarre Adventures"
+author: "sn0_0wyy"
+category: Digital Forensics
+description: |-
+  Bou3rada,had his perfect JPEG portrait messed up and turned into a chaotic blob! But here’s the twist—he left a hidden message in the mess that you might be interested in. 
+
+  Can you fix the corruption and uncover the message?
+
+  **author**: <span style="color:red;font-family:Kamali;">sn0_0wyy</span>
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+
+flags:
+  - Spark{Bou3rada_9allek_R0mdhAn3k_m4broUK!!}
+
+
+files:
+  - Handout/corrupted.jpg
+state: hidden
+version: "0.1"

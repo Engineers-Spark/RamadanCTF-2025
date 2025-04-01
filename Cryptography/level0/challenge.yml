@@ -1,0 +1,20 @@
+name: "LEVEL0"
+author: "AGENTOO"
+category: Cryptography
+description: |-
+
+  Think you know RSA? Prove it! Answer a series of questions testing your knowledge.
+
+  `nc levelzero.espark.tn 6000`
+
+  **author**: AGENTOO
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{90ef9e0c61da9fa5e70b982adeab628d}
+state: "hidden"
+version: "0.1"

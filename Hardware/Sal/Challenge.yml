@@ -1,0 +1,18 @@
+name: "Sal"
+author: "Garroura"
+category: Hardware
+description: |-
+ I intercepted this communication from a suspicious device.
+  **author**: Garroura
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - spark{60ba1c8a12a744e7d6f3eb366d98aefc}
+files:
+  - Challenge/task.sal
+state: "hidden"
+version: "0.1"

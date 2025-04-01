@@ -1,0 +1,23 @@
+name: "Guthib"
+author: "Kakarot"
+category: Digital Forensics
+description: |-
+  Oops looks like i made a wrong commit there that no body should see, luckily I fixed it in time ;)
+
+  >author : Kakarot
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+#Incase of Static Flag
+flags:
+  - Spark{y0u_c0uld_st1ll_f1nd_m3?_1m_1mpr3553d}
+
+
+files:
+  - Handout/git.zip
+state: hidden
+version: "0.1"

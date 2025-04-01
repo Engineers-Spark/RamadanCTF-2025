@@ -1,0 +1,21 @@
+name: "LEVEL1"
+author: "AGENTOO"
+category: Cryptography
+description: |-
+
+  why is there multiple primes ???
+
+  **author**: AGENTOO
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Spark{fdf930ab9ef6401055c8d51e99efa840}
+files:
+  - challenge/level1.py
+  - challenge/level1.txt
+state: "hidden"
+version: "0.1"

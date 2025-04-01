@@ -1,0 +1,18 @@
+name: "Dynamic1"
+author: "Twt-Bouzo"
+category: Reverse Engineering
+description: |- 
+  From recursive depths to mirrored letters, my cipher guards the prize—dare to decode the Ramadan feast!
+  **author**: tWt-Bouzo
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Spark{D21C_0011247132444_8}
+files:
+  - challenge/Dynamic1
+state: "hidden"
+version: "0.1"

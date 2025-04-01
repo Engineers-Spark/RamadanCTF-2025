@@ -1,0 +1,18 @@
+name: "zetc0M"
+author: "1DH4M"
+category: Digital Forensics
+description: |-
+ When we were in Spark Lab, I captured traffic between my friends Garourra and Bouzou. Can you focus on this traffic and get the flag ?
+  **author**: 1DH4M
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+    - Spark{Eng1neers_Sp4rk_1s3t_COM}
+files:
+  - challenge/zetc0M.pcap
+state: "hidden"
+version: "0.1"
